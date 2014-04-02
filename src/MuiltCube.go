@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	//"muiltbox"
+	"core"
+)
 
 func main() {
-	fmt.Printf("Hello world!")
+	//muiltbox.SharedGameMain().Start(8888)
+	core.SharedGameMain().Start(8888);
 }
