@@ -16,5 +16,15 @@ var Utils = (function () {
 
         return result;
     };
+
+    Utils.loadTPL = function (url, callback) {
+        $.ajax({
+            url: url,
+            method: "GET",
+            success: function (data) {
+                callback($(data));
+            }
+        });
+    };
     return Utils;
 })();

@@ -3,34 +3,48 @@
  */
 /// <reference path="jquery.d.ts" />
 
+$(function(){
+	com.tbs.muiltcube.Main.getInstance().start();
+});
+
 var wsuri = "ws://127.0.0.1:8888";
-var client = com.tbs.muiltcube.Client.getInstance();
-var divLog;
+module com.tbs.muiltcube{
+	export class Main{
+		private static _instance:Main;
+		public static getInstance():any {
+			if (!this._instance) {
+				this._instance = new Main();
+			}
 
-window.onload = function () {
-	divLog = $('#log');
+			return this._instance;
+		}
 
-	var client = com.tbs.muiltcube.Client.getInstance();
-	client.init('ws://localhost:8888');
-	client.start();
+		client:any;
+		start(){
+			this.client = com.tbs.muiltcube.Client.getInstance();
+			this.client.init(wsuri);
+			this.client.start();
 
-	client.addCmdListener(1001, on1001Response);
-};
+			this.showLoginPanle();
+		}
+
+		showLoginPanle=()=>{
+			Utils.loadTPL("tpl/login.html", function(tpl){
+				$("body").append(tpl);
+				//this.client.removeCmdListener(1001, on1001Response);
+			});
+		}
+	}
+}
 
 function send() {
 	var message = $('#message');
 
-	client.sendData(message.val());
-
-	divLog.scrollTop = divLog.scrollHeight;
+	//client.sendData(message.val());
 }
 
 function on1001Response(body){
-	client.removeCmdListener(1001, on1001Response);
+	//client.removeCmdListener(1001, on1001Response);
 
 	console.log("message received: " + body);
-
-	divLog.append("<p style='color:blue'>server say: " + body.result + "</p>");
-
-	divLog.scrollTop = divLog.scrollHeight;
 }

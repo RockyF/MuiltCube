@@ -10,4 +10,14 @@ class Utils{
 
 		return result;
 	}
+
+	public static loadTPL(url:string, callback:any):void{
+		$.ajax({
+			url: url,
+			method: "GET",
+			success: function(data){
+				callback($(data));
+			}
+		});
+	}
 }
