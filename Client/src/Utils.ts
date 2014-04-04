@@ -1,6 +1,7 @@
 /**
  * Created by lenovo on 14-3-31.
  */
+/// <reference path="jquery.d.ts" />
 class Utils{
 	public static stringFormat(format:string, ...args){
 		var result:string = format;

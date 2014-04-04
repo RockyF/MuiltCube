@@ -1,7 +1,7 @@
 /**
  * Created by lenovo on 14-3-31.
  */
-module com.tbs.muiltcube {
+module muiltcube {
 	export class Client {
 		private static _instance:Client;
 

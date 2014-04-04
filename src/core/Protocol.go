@@ -37,7 +37,14 @@ func (this *Protocol) Deal1001(client *Client, body map[string]interface {}) {
 	result := model.SharedPlayerModel().Login(int64(id.(float64)), pwd.(string))
 
 	var responseBody tbs.Message = make(tbs.Message)
-	responseBody["result"] = result;
+
+	var resultCode int
+	if result{
+		resultCode = 0
+	}else{
+		resultCode = 1
+	}
+	responseBody["result"] = resultCode;
 
 	client.SendPack(1001, responseBody)
 }

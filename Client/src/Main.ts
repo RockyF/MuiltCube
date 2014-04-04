@@ -3,14 +3,15 @@
  */
 /// <reference path="jquery.d.ts" />
 /// <reference path="Client.ts" />
+/// <reference path="Panels.ts" />
 /// <reference path="Utils.ts" />
 
 $(function(){
-	com.tbs.muiltcube.Main.getInstance().start();
+	muiltcube.Main.getInstance().start();
 });
 
 var wsuri = "ws://127.0.0.1:8888";
-module com.tbs.muiltcube{
+module muiltcube{
 	export class Main{
 		private static _instance:Main;
 		public static getInstance():any {
@@ -23,30 +24,19 @@ module com.tbs.muiltcube{
 
 		client:any;
 		start(){
-			this.client = com.tbs.muiltcube.Client.getInstance();
+			this.client = muiltcube.Client.getInstance();
 			this.client.init(wsuri);
 			this.client.start();
 
-			this.showLoginPanle();
+			this.showLoginPanel();
 		}
 
-		showLoginPanle=()=>{
-			Utils.loadTPL("tpl/login.html", function(tpl){
-				$("body").append(tpl);
-				//this.client.removeCmdListener(1001, on1001Response);
-			});
+		showLoginPanel(){
+			new LoginPanel(this.onLoginSuccess);
+		}
+
+		onLoginSuccess=()=>{
+
 		}
 	}
-}
-
-function send() {
-	var message = $('#message');
-
-	//client.sendData(message.val());
-}
-
-function on1001Response(body){
-	//client.removeCmdListener(1001, on1001Response);
-
-	console.log("message received: " + body);
 }
