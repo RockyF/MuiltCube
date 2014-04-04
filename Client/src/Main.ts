@@ -2,6 +2,8 @@
  * Created by RockyF on 14-3-31.
  */
 /// <reference path="jquery.d.ts" />
+/// <reference path="Client.ts" />
+/// <reference path="Utils.ts" />
 
 $(function(){
 	com.tbs.muiltcube.Main.getInstance().start();
