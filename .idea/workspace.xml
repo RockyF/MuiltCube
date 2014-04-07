@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e82bfb-4678-47ca-a8b8-ac73bfa13822" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/Book.xls" afterPath="$PROJECT_DIR$/docs/Book.xls" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/src/Client.js" afterPath="$PROJECT_DIR$/Client/src/Client.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/src/Client.ts" afterPath="$PROJECT_DIR$/Client/src/Client.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Model.go" afterPath="$PROJECT_DIR$/src/model/Model.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/src/Main.js" afterPath="$PROJECT_DIR$/Client/src/Main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/src/Main.ts" afterPath="$PROJECT_DIR$/Client/src/Main.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebServer/gateway.php" afterPath="$PROJECT_DIR$/WebServer/gateway.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -71,10 +71,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.ts" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Main.ts" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Client/src/Main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="26" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="379" max-vertical-offset="752">
+            <state line="26" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.27882037" vertical-offset="312" max-vertical-offset="896">
               <folding />
             </state>
           </provider>
@@ -83,7 +83,7 @@
       <file leaf-file-name="gateway.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebServer/gateway.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="3" selection-start="91" selection-end="91" vertical-scroll-proportion="-3.84" vertical-offset="0" max-vertical-offset="224">
+            <state line="8" column="14" selection-start="107" selection-end="107" vertical-scroll-proportion="-5.12" vertical-offset="0" max-vertical-offset="224">
               <folding>
                 <element signature="e#6#91#0" expanded="true" />
               </folding>
@@ -140,21 +140,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Protocol.go" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/core/Protocol.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="46" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="928">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.ts" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Client.ts" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Client/src/Client.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="0" selection-start="2085" selection-end="2085" vertical-scroll-proportion="0.26760563" vertical-offset="88" max-vertical-offset="656">
+            <state line="108" column="14" selection-start="2230" selection-end="2230" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="688">
               <folding>
                 <element signature="n#Client#0;n#muiltcube#0" expanded="false" />
+                <marker date="1396871235011" expanded="true" signature="1921:2498" placeholder="..." />
+                <marker date="1396871235011" expanded="true" signature="2337:2401" placeholder="{...}" />
+                <marker date="1396871235011" expanded="true" signature="2429:2484" placeholder="{...}" />
+                <marker date="1396871235011" expanded="true" signature="2448:2478" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -177,16 +172,16 @@
         <option value="$PROJECT_DIR$/Client/src/LoginPanel.ts" />
         <option value="$PROJECT_DIR$/src/model/PlayerInfoVo.go" />
         <option value="$PROJECT_DIR$/Client/src/tpl/role_select.html" />
-        <option value="$PROJECT_DIR$/Client/src/Main.ts" />
         <option value="$PROJECT_DIR$/Client/src/style/common.css" />
         <option value="$PROJECT_DIR$/Client/src/Main.html" />
         <option value="$PROJECT_DIR$/Client/src/Panels.ts" />
         <option value="$PROJECT_DIR$/Client/src/tpl/login.html" />
         <option value="$PROJECT_DIR$/src/core/Protocol.go" />
         <option value="$PROJECT_DIR$/Client/src/tpl/role_create.html" />
-        <option value="$PROJECT_DIR$/WebServer/gateway.php" />
         <option value="$PROJECT_DIR$/src/model/Model.go" />
         <option value="$PROJECT_DIR$/Client/src/Client.ts" />
+        <option value="$PROJECT_DIR$/WebServer/gateway.php" />
+        <option value="$PROJECT_DIR$/Client/src/Main.ts" />
       </list>
     </option>
   </component>
@@ -272,75 +267,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MuiltCube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muiltcube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MuiltCube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muiltcube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MuiltCube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muiltcube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MuiltCube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="muiltcube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -698,7 +625,7 @@
       <workItem from="1396676267343" duration="5636000" />
       <workItem from="1396704209744" duration="1788000" />
       <workItem from="1396753669201" duration="9414000" />
-      <workItem from="1396830549436" duration="12450000" />
+      <workItem from="1396830549436" duration="15166000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1396624480061</created>
@@ -708,11 +635,15 @@
       <created>1396838905625</created>
       <updated>1396838905625</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial commit&#10;">
+      <created>1396871115700</created>
+      <updated>1396871115700</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43212000" />
+    <option name="totallyTimeSpent" value="45928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -722,7 +653,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3277311" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -813,6 +744,10 @@
         <state line="13" column="5" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="1568">
           <folding>
             <element signature="n#Client#0;n#muiltcube#0" expanded="false" />
+            <marker date="1396871235011" expanded="true" signature="1921:2498" placeholder="..." />
+            <marker date="1396871235011" expanded="true" signature="2337:2401" placeholder="{...}" />
+            <marker date="1396871235011" expanded="true" signature="2429:2484" placeholder="{...}" />
+            <marker date="1396871235011" expanded="true" signature="2448:2478" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -845,6 +780,10 @@
         <state line="9" column="7" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1568">
           <folding>
             <element signature="n#Client#0;n#muiltcube#0" expanded="false" />
+            <marker date="1396871235011" expanded="true" signature="1921:2498" placeholder="..." />
+            <marker date="1396871235011" expanded="true" signature="2337:2401" placeholder="{...}" />
+            <marker date="1396871235011" expanded="true" signature="2429:2484" placeholder="{...}" />
+            <marker date="1396871235011" expanded="true" signature="2448:2478" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -875,6 +814,10 @@
         <state line="9" column="7" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1568">
           <folding>
             <element signature="n#Client#0;n#muiltcube#0" expanded="false" />
+            <marker date="1396871235011" expanded="true" signature="1921:2498" placeholder="..." />
+            <marker date="1396871235011" expanded="true" signature="2337:2401" placeholder="{...}" />
+            <marker date="1396871235011" expanded="true" signature="2429:2484" placeholder="{...}" />
+            <marker date="1396871235011" expanded="true" signature="2448:2478" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -912,6 +855,10 @@
         <state line="9" column="7" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1568">
           <folding>
             <element signature="n#Client#0;n#muiltcube#0" expanded="false" />
+            <marker date="1396871235011" expanded="true" signature="1921:2498" placeholder="..." />
+            <marker date="1396871235011" expanded="true" signature="2337:2401" placeholder="{...}" />
+            <marker date="1396871235011" expanded="true" signature="2429:2484" placeholder="{...}" />
+            <marker date="1396871235011" expanded="true" signature="2448:2478" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -944,6 +891,10 @@
         <state line="9" column="7" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1568">
           <folding>
             <element signature="n#Client#0;n#muiltcube#0" expanded="false" />
+            <marker date="1396871235011" expanded="true" signature="1921:2498" placeholder="..." />
+            <marker date="1396871235011" expanded="true" signature="2337:2401" placeholder="{...}" />
+            <marker date="1396871235011" expanded="true" signature="2429:2484" placeholder="{...}" />
+            <marker date="1396871235011" expanded="true" signature="2448:2478" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -976,6 +927,10 @@
         <state line="10" column="7" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="1568">
           <folding>
             <element signature="n#Client#0;n#muiltcube#0" expanded="false" />
+            <marker date="1396871235011" expanded="true" signature="1921:2498" placeholder="..." />
+            <marker date="1396871235011" expanded="true" signature="2337:2401" placeholder="{...}" />
+            <marker date="1396871235011" expanded="true" signature="2429:2484" placeholder="{...}" />
+            <marker date="1396871235011" expanded="true" signature="2448:2478" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1064,15 +1019,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebServer/gateway.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="91" selection-end="91" vertical-scroll-proportion="-3.84" vertical-offset="0" max-vertical-offset="224">
-          <folding>
-            <element signature="e#6#91#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Model.go">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="1" selection-start="1300" selection-end="1300" vertical-scroll-proportion="0.44235924" vertical-offset="699" max-vertical-offset="1152">
@@ -1083,13 +1029,6 @@
     <entry file="file://$PROJECT_DIR$/src/model/PlayerInfoVo.go">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="35" selection-start="156" selection-end="156" vertical-scroll-proportion="0.31903484" vertical-offset="25" max-vertical-offset="400">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/style/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="1" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
           <folding />
         </state>
       </provider>
@@ -1108,13 +1047,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/Main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="26" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="379" max-vertical-offset="752">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/Client.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="17" selection-start="2607" selection-end="2607" vertical-scroll-proportion="-0.09859155" vertical-offset="1304" max-vertical-offset="2016">
@@ -1122,19 +1054,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/Client.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="14" selection-start="2230" selection-end="2230" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="688">
+          <folding>
+            <element signature="n#Client#0;n#muiltcube#0" expanded="false" />
+            <marker date="1396871235011" expanded="true" signature="1921:2498" placeholder="..." />
+            <marker date="1396871235011" expanded="true" signature="2337:2401" placeholder="{...}" />
+            <marker date="1396871235011" expanded="true" signature="2429:2484" placeholder="{...}" />
+            <marker date="1396871235011" expanded="true" signature="2448:2478" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/core/Protocol.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="46" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="928">
+        <state line="39" column="50" selection-start="885" selection-end="885" vertical-scroll-proportion="0.46478873" vertical-offset="360" max-vertical-offset="928">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/Client.ts">
+    <entry file="file://$PROJECT_DIR$/Client/src/style/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="0" selection-start="2085" selection-end="2085" vertical-scroll-proportion="0.26760563" vertical-offset="88" max-vertical-offset="656">
+        <state line="3" column="1" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebServer/gateway.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="107" selection-end="107" vertical-scroll-proportion="-5.12" vertical-offset="0" max-vertical-offset="224">
           <folding>
-            <element signature="n#Client#0;n#muiltcube#0" expanded="false" />
+            <element signature="e#6#91#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/Main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.27882037" vertical-offset="312" max-vertical-offset="896">
+          <folding />
         </state>
       </provider>
     </entry>

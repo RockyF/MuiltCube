@@ -99,7 +99,9 @@ var muiltcube;
                         request.setRequestHeader("objectName", objectName);
                     },
                     success: function (data) {
-                        callback(data);
+                        if (callback) {
+                            callback(data);
+                        }
                     }
                 });
             };

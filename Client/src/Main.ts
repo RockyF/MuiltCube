@@ -23,10 +23,19 @@ module muiltcube{
 		}
 
 		client:any;
+		rpc:any;
+
 		start(){
 			this.client = muiltcube.Client.getInstance();
 			this.client.init(wsuri);
 			this.client.start();
+
+			this.rpc = RPC.getInstance();
+			this.rpc.init("http://localhost/WebServer/gateWay.php");
+
+			this.rpc.execute("User", {id:1001}, function(data){
+				console.log(data);
+			});
 
 			this.showLoginPanel();
 		}
