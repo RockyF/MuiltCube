@@ -90,14 +90,12 @@ var muiltcube;
     var RPC = (function () {
         function RPC() {
             var _this = this;
-            this.execute = function (objectName, params, callback) {
+            this.execute = function (className, methodName, params, callback) {
+                var data = { className: className, methodName: methodName, params: params };
                 $.ajax({
                     url: _this.gateWay,
                     method: "POST",
-                    data: JSON.stringify(params),
-                    beforeSend: function (request) {
-                        request.setRequestHeader("objectName", objectName);
-                    },
+                    data: JSON.stringify(data),
                     success: function (data) {
                         if (callback) {
                             callback(data);

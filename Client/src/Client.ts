@@ -105,14 +105,12 @@ module muiltcube {
 			this.gateWay = gateWay;
 		}
 
-		execute=(objectName:string, params:any, callback:any)=>{
+		execute=(className:string, methodName:string, params:any, callback:any)=>{
+			var data = {className:className, methodName:methodName, params:params};
 			$.ajax({
 				url:this.gateWay,
 				method:"POST",
-				data:JSON.stringify(params),
-				beforeSend:function(request){
-					request.setRequestHeader("objectName", objectName);
-				},
+				data:JSON.stringify(data),
 				success:function(data){
 					if(callback){
 						callback(data);
