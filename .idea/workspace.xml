@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e82bfb-4678-47ca-a8b8-ac73bfa13822" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\Workspaces\idea\MuiltCube\WebServer\common.class.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebServer/class/common.php" />
+      <change type="DELETED" beforePath="E:\Workspaces\idea\MuiltCube\WebServer\class\aaa.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MuiltCube.iws" />
@@ -117,31 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RPC.class.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="RPC.class.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebServer/rpc/RPC.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8965516" vertical-offset="129" max-vertical-offset="800">
+            <state vertical-scroll-proportion="0.2548435" vertical-offset="129" max-vertical-offset="800">
               <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebServer/class/common.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="320">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aaa.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebServer/class/aaa.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17883755" vertical-offset="0" max-vertical-offset="671">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -175,6 +156,8 @@
         <option value="$PROJECT_DIR$/Client/src/Client.ts" />
         <option value="$PROJECT_DIR$/WebServer/gateway.php" />
         <option value="$PROJECT_DIR$/WebServer/rpc/RPC.class.php" />
+        <option value="$PROJECT_DIR$/WebServer/class/common.class.php" />
+        <option value="$PROJECT_DIR$/WebServer/class/aaa.php" />
       </list>
     </option>
   </component>
@@ -680,7 +663,7 @@
       <workItem from="1396624525446" duration="5443000" />
       <workItem from="1396878574614" duration="145000" />
       <workItem from="1396878822915" duration="3120000" />
-      <workItem from="1396882854401" duration="7758000" />
+      <workItem from="1396882854401" duration="7846000" />
     </task>
     <task id="LOCAL-00001" summary="commit at home">
       <created>1396459603219</created>
@@ -714,11 +697,15 @@
       <created>1396891114925</created>
       <updated>1396891114925</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit at home">
+      <created>1396891141055</created>
+      <updated>1396891141055</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26129000" />
+    <option name="totallyTimeSpent" value="26217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
@@ -1136,26 +1123,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebServer/rpc/RPC.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8965516" vertical-offset="129" max-vertical-offset="800">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebServer/class/common.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="671">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebServer/class/aaa.php">
+    <entry file="file://$PROJECT_DIR$/WebServer/class/common.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17883755" vertical-offset="0" max-vertical-offset="671">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebServer/rpc/RPC.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2548435" vertical-offset="129" max-vertical-offset="800">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding />
         </state>
       </provider>
