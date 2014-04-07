@@ -86,4 +86,36 @@ var muiltcube;
         return Client;
     })();
     muiltcube.Client = Client;
+
+    var RPC = (function () {
+        function RPC() {
+            var _this = this;
+            this.execute = function (objectName, params, callback) {
+                $.ajax({
+                    url: _this.gateWay,
+                    method: "POST",
+                    data: JSON.stringify(params),
+                    beforeSend: function (request) {
+                        request.setRequestHeader("objectName", objectName);
+                    },
+                    success: function (data) {
+                        callback(data);
+                    }
+                });
+            };
+        }
+        RPC.getInstance = function () {
+            if (!this._instance) {
+                this._instance = new RPC();
+            }
+
+            return this._instance;
+        };
+
+        RPC.prototype.init = function (gateWay) {
+            this.gateWay = gateWay;
+        };
+        return RPC;
+    })();
+    muiltcube.RPC = RPC;
 })(muiltcube || (muiltcube = {}));

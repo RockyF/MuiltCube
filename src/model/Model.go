@@ -44,13 +44,23 @@ func (this *PlayerModel) GerPlayerInfo(id int64)*PlayerInfoVo {
 }
 
 func (this *PlayerModel) Login(id int64, pwd string) bool{
-	count, _ := this.dbmap.SelectInt("select count(*) from password where player_id=? and password =?", id, pwd)
+	var count int
+	if id == 0 || pwd == ""{
+		count = 0
+	}else{
+		count, _ = this.dbmap.SelectInt("select count(*) from password where player_id=? and password =?", id, pwd)
+	}
 
 	return count > 0
 }
 
 func (this *PlayerModel) HadSkin(id int64) bool{
-	count, _ := this.dbmap.SelectInt("select count(*) from skin where player_id=?", id)
+	var count int
+	if id == 0 {
+		count = 0
+	}else{
+		count, _ = this.dbmap.SelectInt("select count(*) from skin where player_id=?", id)
+	}
 
 	return count > 0
 }

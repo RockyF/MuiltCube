@@ -4,7 +4,6 @@
 module muiltcube {
 	export class Client {
 		private static _instance:Client;
-
 		public static getInstance():any {
 			if (!this._instance) {
 				this._instance = new Client();
@@ -88,6 +87,36 @@ module muiltcube {
 
 		onError=(event)=>{
 			console.log('socket error!');
+		}
+	}
+
+	export class RPC{
+		private static _instance:RPC;
+		public static getInstance():any {
+			if (!this._instance) {
+				this._instance = new RPC();
+			}
+
+			return this._instance;
+		}
+
+		gateWay:string;
+		init(gateWay:string){
+			this.gateWay = gateWay;
+		}
+
+		execute=(objectName:string, params:any, callback:any)=>{
+			$.ajax({
+				url:this.gateWay,
+				method:"POST",
+				data:JSON.stringify(params),
+				beforeSend:function(request){
+					request.setRequestHeader("objectName", objectName);
+				},
+				success:function(data){
+					callback(data);
+				}
+			});
 		}
 	}
 }
