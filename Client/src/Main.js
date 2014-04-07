@@ -14,7 +14,9 @@ var muiltcube;
 (function (muiltcube) {
     var Main = (function () {
         function Main() {
+            var _this = this;
             this.onLoginSuccess = function () {
+                new muiltcube.RoleCreatePanel(_this.onLoginSuccess);
             };
         }
         Main.getInstance = function () {

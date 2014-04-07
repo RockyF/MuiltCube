@@ -15,6 +15,10 @@ var muiltcube;
                 var id = parseInt($("#tiID").val());
                 var pwd = $("#tiPwd").val();
 
+                if (id == 0 || pwd == "") {
+                    return;
+                }
+
                 muiltcube.Client.getInstance().addCmdListener(1001, _this.on1001Response);
                 muiltcube.Client.getInstance().send(1001, { id: id, pwd: pwd });
             };
@@ -22,6 +26,7 @@ var muiltcube;
                 muiltcube.Client.getInstance().removeCmdListener(1001, _this.on1001Response);
                 if (msg.result == 0) {
                     alert("onLoginSuccess");
+                    $("#loginPanel").remove();
                     _this.onSuccess();
                 } else {
                     alert("onLoginFailed");
@@ -33,4 +38,16 @@ var muiltcube;
         return LoginPanel;
     })();
     muiltcube.LoginPanel = LoginPanel;
+    var RoleCreatePanel = (function () {
+        function RoleCreatePanel(onSuccess) {
+            this.onTplLoaded = function (tpl) {
+                $("body").append(tpl);
+                //$("#btnLogin").click(this.onBtnLoginClicked);
+            };
+            this.onSuccess = onSuccess;
+            Utils.loadTPL("tpl/role_create.html", this.onTplLoaded);
+        }
+        return RoleCreatePanel;
+    })();
+    muiltcube.RoleCreatePanel = RoleCreatePanel;
 })(muiltcube || (muiltcube = {}));

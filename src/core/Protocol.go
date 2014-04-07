@@ -35,6 +35,7 @@ func (this *Protocol) Deal1001(client *Client, body map[string]interface {}) {
 	pwd := body["pwd"]
 
 	result := model.SharedPlayerModel().Login(int64(id.(float64)), pwd.(string))
+	hadSkin := model.SharedPlayerModel().HadSkin(int64(id.(float64)))
 
 	var responseBody tbs.Message = make(tbs.Message)
 
@@ -45,6 +46,7 @@ func (this *Protocol) Deal1001(client *Client, body map[string]interface {}) {
 		resultCode = 1
 	}
 	responseBody["result"] = resultCode;
+	responseBody["hadSkin"] = hadSkin;
 
 	client.SendPack(1001, responseBody)
 }

@@ -36,7 +36,7 @@ module muiltcube{
 		}
 
 		onLoginSuccess=()=>{
-
+			new RoleCreatePanel(this.onLoginSuccess);
 		}
 	}
 }
