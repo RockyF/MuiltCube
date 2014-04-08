@@ -18,4 +18,3 @@ CREATE TABLE `skin` (
   `surround` int(11) DEFAULT NULL,
   PRIMARY KEY (`player_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8$$
-
