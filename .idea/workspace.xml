@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e82bfb-4678-47ca-a8b8-ac73bfa13822" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/src/Panels.js" afterPath="$PROJECT_DIR$/Client/src/Panels.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/src/Panels.ts" afterPath="$PROJECT_DIR$/Client/src/Panels.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/src/tpl/role_create.html" afterPath="$PROJECT_DIR$/Client/src/tpl/role_create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/muiltcube.sql" afterPath="$PROJECT_DIR$/muiltcube.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MuiltCube.iws" />
@@ -102,8 +100,8 @@
       <file leaf-file-name="Panels.ts" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Client/src/Panels.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45714286" vertical-offset="1140" max-vertical-offset="1860">
-              <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.6857143" vertical-offset="1140" max-vertical-offset="1860">
+              <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -702,7 +700,7 @@
       <workItem from="1396878822915" duration="3120000" />
       <workItem from="1396882854401" duration="7958000" />
       <workItem from="1396969989095" duration="125000" />
-      <workItem from="1396970147657" duration="6706000" />
+      <workItem from="1396970147657" duration="6733000" />
     </task>
     <task id="LOCAL-00001" summary="commit at home">
       <created>1396459603219</created>
@@ -752,11 +750,15 @@
       <created>1396976072957</created>
       <updated>1396976072957</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="commit at home">
+      <created>1396977383005</created>
+      <updated>1396977383005</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33160000" />
+    <option name="totallyTimeSpent" value="33187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
@@ -1223,8 +1225,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/Panels.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45714286" vertical-offset="1140" max-vertical-offset="1860">
-          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.6857143" vertical-offset="1140" max-vertical-offset="1860">
+          <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
           <folding />
         </state>
       </provider>
