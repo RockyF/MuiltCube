@@ -44,9 +44,9 @@ class RPC
 			$error = "class file is not exist.";
 		}
 		if($result){
-			responseHandler(array("result" => 0, "body" => $body));
+			$this->responseHandler(array("result" => 0, "body" => $body));
 		}else{
-			responseHandler(array("result" => 1, "error" => $error));
+			$this->responseHandler(array("result" => 1, "error" => $error));
 		}
 	}
 
