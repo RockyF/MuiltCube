@@ -44,7 +44,7 @@ func (this *PlayerModel) GerPlayerInfo(id int64)*PlayerInfoVo {
 }
 
 func (this *PlayerModel) Login(id int64, pwd string) bool{
-	var count int
+	var count int64
 	if id == 0 || pwd == ""{
 		count = 0
 	}else{
@@ -55,7 +55,7 @@ func (this *PlayerModel) Login(id int64, pwd string) bool{
 }
 
 func (this *PlayerModel) HadSkin(id int64) bool{
-	var count int
+	var count int64
 	if id == 0 {
 		count = 0
 	}else{

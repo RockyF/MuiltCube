@@ -1,4 +1,5 @@
 <?php
+require("DB.class.php");
 /**
  * Created by IntelliJ IDEA.
  * User: RockyF
@@ -7,11 +8,13 @@
  */
 
 class Common{
+	private $db;
 	function __construct(){
-
+		$this->db = new DB();
 	}
 
 	function getColorList(){
-		return array("1"=>0xFFFFFF);
+		$result = $this->db->get_all("select * from skin_color");
+		return $result;
 	}
 }

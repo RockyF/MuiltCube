@@ -35,10 +35,6 @@ var muiltcube;
             this.rpc = muiltcube.RPC.getInstance();
             this.rpc.init("http://localhost/muiltcube/WebServer/gateway.php");
 
-            this.rpc.execute("Common", "getColorList", { id: 1001 }, function (data) {
-                console.log(data);
-            });
-
             this.showLoginPanel();
         };
 

@@ -1,5 +1,4 @@
 <?php
-require_once("config.db.php");
 
 Class DB
 {
@@ -13,6 +12,7 @@ Class DB
 	public function __construct()
 	{
 		$this->time = $this->microtime_float();
+		require_once("config.db.php");
 		$this->connect($db_config["hostname"], $db_config["username"], $db_config["password"], $db_config["database"], $db_config["pconnect"]);
 		$this->is_log = $db_config["log"];
 		if ($this->is_log) {
@@ -54,7 +54,7 @@ Class DB
 	public function get_one($sql, $result_type = MYSQL_ASSOC)
 	{
 		$query = $this->query($sql);
-		$rt =& mysql_fetch_array($query, $result_type);
+		$rt = mysql_fetch_array($query, $result_type);
 		$this->write_log("获取一条记录 " . $sql);
 		return $rt;
 	}
@@ -65,7 +65,7 @@ Class DB
 		$query = $this->query($sql);
 		$i = 0;
 		$rt = array();
-		while ($row =& mysql_fetch_array($query, $result_type)) {
+		while ($row = mysql_fetch_array($query, $result_type)) {
 			$rt[$i] = $row;
 			$i++;
 		}

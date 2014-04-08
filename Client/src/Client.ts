@@ -1,6 +1,8 @@
 /**
  * Created by lenovo on 14-3-31.
  */
+/// <reference path="jquery.d.ts" />
+
 module muiltcube {
 	export class Client {
 		private static _instance:Client;
@@ -113,7 +115,7 @@ module muiltcube {
 				data:JSON.stringify(data),
 				success:function(data){
 					if(callback){
-						callback(data);
+						callback(JSON.parse(data));
 					}
 				}
 			});

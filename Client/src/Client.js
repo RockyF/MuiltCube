@@ -1,6 +1,7 @@
 /**
 * Created by lenovo on 14-3-31.
 */
+/// <reference path="jquery.d.ts" />
 var muiltcube;
 (function (muiltcube) {
     var Client = (function () {
@@ -98,7 +99,7 @@ var muiltcube;
                     data: JSON.stringify(data),
                     success: function (data) {
                         if (callback) {
-                            callback(data);
+                            callback(JSON.parse(data));
                         }
                     }
                 });

@@ -1,58 +1,79 @@
 /**
  * Created by lenovo on 14-4-4.
  */
+/// <reference path="async.d.ts" />
 
-module muiltcube{
-	export class LoginPanel{
+module muiltcube {
+	export class LoginPanel {
 		onSuccess:any;
 
-		constructor(onSuccess:any){
+		constructor(onSuccess:any) {
 			this.onSuccess = onSuccess;
 			Utils.loadTPL("tpl/login.html", this.onTplLoaded);
 		}
 
-		onTplLoaded=(tpl)=>{
+		onTplLoaded = (tpl)=> {
 			$("body").append(tpl);
 
 			$("#btnLogin").click(this.onBtnLoginClicked);
 		};
 
-		onBtnLoginClicked=()=>{
+		onBtnLoginClicked = ()=> {
 			var id = parseInt($("#tiID").val());
 			var pwd = $("#tiPwd").val();
 
-			if(id == 0 || pwd == ""){
+			if (id == 0 || pwd == "") {
 				return;
 			}
 
 			muiltcube.Client.getInstance().addCmdListener(1001, this.on1001Response);
-			muiltcube.Client.getInstance().send(1001, {id:id, pwd:pwd});
+			muiltcube.Client.getInstance().send(1001, {id: id, pwd: pwd});
 		};
 
-		on1001Response=(msg:any)=>{
+		on1001Response = (msg:any)=> {
 			muiltcube.Client.getInstance().removeCmdListener(1001, this.on1001Response);
-			if(msg.result == 0){
+			if (msg.result == 0) {
 				alert("onLoginSuccess");
 				$("#loginPanel").remove();
 				this.onSuccess();
-			}else{
+			} else {
 				alert("onLoginFailed");
 			}
 		};
 	}
-	export class RoleCreatePanel{
+	export class RoleCreatePanel {
 		onSuccess:any;
+		rpc:any;
+		colors:any;
 
-		constructor(onSuccess:any){
+		constructor(onSuccess:any) {
 			this.onSuccess = onSuccess;
-			Utils.loadTPL("tpl/role_create.html", this.onTplLoaded);
+
+			this.rpc = RPC.getInstance();
+
+			async.parallel({
+					one: this.one,
+					two: this.two
+				},
+				function (err, results) {
+
+				});
 		}
 
-		onTplLoaded=(tpl)=>{
-			$("body").append(tpl);
-
-			//$("#btnLogin").click(this.onBtnLoginClicked);
+		one = (callback)=> {
+			Utils.loadTPL("tpl/role_create.html", function (tpl) {
+				$("body").append(tpl);
+				callback();
+			});
 		};
 
+		two = (callback)=> {
+			this.rpc.execute("Common", "getColorList", {id: 1001}, function (msg) {
+				if(msg.result == 0){
+					colors = msg.body;
+				}
+				callback();
+			});
+		};
 	}
 }

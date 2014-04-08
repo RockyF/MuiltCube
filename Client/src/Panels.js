@@ -1,6 +1,7 @@
 /**
 * Created by lenovo on 14-4-4.
 */
+/// <reference path="async.d.ts" />
 var muiltcube;
 (function (muiltcube) {
     var LoginPanel = (function () {
@@ -40,12 +41,30 @@ var muiltcube;
     muiltcube.LoginPanel = LoginPanel;
     var RoleCreatePanel = (function () {
         function RoleCreatePanel(onSuccess) {
-            this.onTplLoaded = function (tpl) {
-                $("body").append(tpl);
-                //$("#btnLogin").click(this.onBtnLoginClicked);
+            var _this = this;
+            this.one = function (callback) {
+                Utils.loadTPL("tpl/role_create.html", function (tpl) {
+                    $("body").append(tpl);
+                    callback();
+                });
+            };
+            this.two = function (callback) {
+                _this.rpc.execute("Common", "getColorList", { id: 1001 }, function (msg) {
+                    if (msg.result == 0) {
+                        colors = msg.body;
+                    }
+                    callback();
+                });
             };
             this.onSuccess = onSuccess;
-            Utils.loadTPL("tpl/role_create.html", this.onTplLoaded);
+
+            this.rpc = muiltcube.RPC.getInstance();
+
+            async.parallel({
+                one: this.one,
+                two: this.two
+            }, function (err, results) {
+            });
         }
         return RoleCreatePanel;
     })();
