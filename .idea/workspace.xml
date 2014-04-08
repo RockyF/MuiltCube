@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e82bfb-4678-47ca-a8b8-ac73bfa13822" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/src/Main.ts" afterPath="$PROJECT_DIR$/Client/src/Main.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebServer/rpc/RPC.class.php" afterPath="$PROJECT_DIR$/WebServer/rpc/RPC.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\Workspaces\IdeaProjects\muiltcube\WebServer\class\common.php" afterPath="$PROJECT_DIR$/WebServer/class/common.class.php" />
     </list>
     <ignored path="MuiltCube.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,15 +68,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.ts" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Main.ts" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Client/src/Main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0" vertical-offset="344" max-vertical-offset="912">
-              <folding>
-                <marker date="1396920305104" expanded="true" signature="292:1060" placeholder="..." />
-                <marker date="1396920305104" expanded="true" signature="312:1058" placeholder="..." />
-                <marker date="1396920305104" expanded="true" signature="514:917" placeholder="{...}" />
-              </folding>
+            <state line="29" column="30" selection-start="592" selection-end="592" vertical-scroll-proportion="0.2112676" vertical-offset="344" max-vertical-offset="912">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,17 +80,19 @@
       <file leaf-file-name="gateway.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebServer/gateway.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="12" selection-start="48" selection-end="48" vertical-scroll-proportion="-1.92" vertical-offset="0" max-vertical-offset="144">
+            <state line="3" column="12" selection-start="48" selection-end="48" vertical-scroll-proportion="0.32" vertical-offset="56" max-vertical-offset="144">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RPC.class.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RPC.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebServer/rpc/RPC.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="44" selection-start="288" selection-end="288" vertical-scroll-proportion="0.2946593" vertical-offset="0" max-vertical-offset="640">
-              <folding />
+            <state line="21" column="20" selection-start="353" selection-end="353" vertical-scroll-proportion="-1.24" vertical-offset="225" max-vertical-offset="912">
+              <folding>
+                <element signature="e#7#91#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,6 +147,7 @@
         <option value="$PROJECT_DIR$/src/model/Model.go" />
         <option value="$PROJECT_DIR$/Client/src/Client.ts" />
         <option value="$PROJECT_DIR$/WebServer/gateway.php" />
+        <option value="$PROJECT_DIR$/WebServer/rpc/RPC.class.php" />
         <option value="$PROJECT_DIR$/Client/src/Main.ts" />
       </list>
     </option>
@@ -236,6 +236,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="rpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MuiltCube" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="muiltcube" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="class" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -268,7 +286,7 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="last_opened_file_path" value="E:/Worksapce/xiyou2_idea" />
-    <property name="options.lastSelected" value="http.proxy" />
+    <property name="options.lastSelected" value="preferences.sourceCode.PHP" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -280,6 +298,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -732,7 +751,7 @@
       <workItem from="1396704209744" duration="1788000" />
       <workItem from="1396753669201" duration="9414000" />
       <workItem from="1396830549436" duration="15398000" />
-      <workItem from="1396876561568" duration="2151000" />
+      <workItem from="1396876561568" duration="3596000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1396624480061</created>
@@ -750,11 +769,15 @@
       <created>1396875919218</created>
       <updated>1396875919218</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial commit&#10;">
+      <created>1396922141836</created>
+      <updated>1396922141836</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48311000" />
+    <option name="totallyTimeSpent" value="49756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -773,6 +796,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -784,7 +808,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -814,11 +837,7 @@
     <entry file="file://$PROJECT_DIR$/Client/src/Main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="0" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="752">
-          <folding>
-            <marker date="1396920305104" expanded="true" signature="292:1060" placeholder="..." />
-            <marker date="1396920305104" expanded="true" signature="312:1058" placeholder="..." />
-            <marker date="1396920305104" expanded="true" signature="514:917" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -840,7 +859,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="768" />
+        <state line="0" column="0" selection-start="0" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="768">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/PlayerInfoVo.go">
@@ -862,11 +883,7 @@
     <entry file="file://$PROJECT_DIR$/Client/src/Main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="20" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="184" max-vertical-offset="752">
-          <folding>
-            <marker date="1396920305104" expanded="true" signature="292:1060" placeholder="..." />
-            <marker date="1396920305104" expanded="true" signature="312:1058" placeholder="..." />
-            <marker date="1396920305104" expanded="true" signature="514:917" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -898,11 +915,7 @@
     <entry file="file://$PROJECT_DIR$/Client/src/Main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="20" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="752">
-          <folding>
-            <marker date="1396920305104" expanded="true" signature="292:1060" placeholder="..." />
-            <marker date="1396920305104" expanded="true" signature="312:1058" placeholder="..." />
-            <marker date="1396920305104" expanded="true" signature="514:917" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -941,11 +954,7 @@
     <entry file="file://$PROJECT_DIR$/Client/src/Main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="12" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="752">
-          <folding>
-            <marker date="1396920305104" expanded="true" signature="292:1060" placeholder="..." />
-            <marker date="1396920305104" expanded="true" signature="312:1058" placeholder="..." />
-            <marker date="1396920305104" expanded="true" signature="514:917" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -984,11 +993,7 @@
     <entry file="file://$PROJECT_DIR$/Client/src/Main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="34" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="752">
-          <folding>
-            <marker date="1396920305104" expanded="true" signature="292:1060" placeholder="..." />
-            <marker date="1396920305104" expanded="true" signature="312:1058" placeholder="..." />
-            <marker date="1396920305104" expanded="true" signature="514:917" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1022,11 +1027,7 @@
     <entry file="file://$PROJECT_DIR$/Client/src/Main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="34" selection-start="248" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="912">
-          <folding>
-            <marker date="1396920305104" expanded="true" signature="292:1060" placeholder="..." />
-            <marker date="1396920305104" expanded="true" signature="312:1058" placeholder="..." />
-            <marker date="1396920305104" expanded="true" signature="514:917" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1104,7 +1105,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="179" vertical-scroll-proportion="-0.34736842" vertical-offset="198" max-vertical-offset="768" />
+        <state line="0" column="0" selection-start="0" selection-end="179" vertical-scroll-proportion="-0.34736842" vertical-offset="198" max-vertical-offset="768">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/Panels.ts">
@@ -1182,27 +1185,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/Main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0" vertical-offset="344" max-vertical-offset="912">
-          <folding>
-            <marker date="1396920305104" expanded="true" signature="292:1060" placeholder="..." />
-            <marker date="1396920305104" expanded="true" signature="312:1058" placeholder="..." />
-            <marker date="1396920305104" expanded="true" signature="514:917" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebServer/gateway.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="12" selection-start="48" selection-end="48" vertical-scroll-proportion="-1.92" vertical-offset="0" max-vertical-offset="144">
+        <state line="3" column="12" selection-start="48" selection-end="48" vertical-scroll-proportion="0.32" vertical-offset="56" max-vertical-offset="144">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebServer/rpc/RPC.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="44" selection-start="288" selection-end="288" vertical-scroll-proportion="0.2946593" vertical-offset="0" max-vertical-offset="640">
+        <state line="21" column="20" selection-start="353" selection-end="353" vertical-scroll-proportion="-1.24" vertical-offset="225" max-vertical-offset="912">
+          <folding>
+            <element signature="e#7#91#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/Main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="30" selection-start="592" selection-end="592" vertical-scroll-proportion="0.2112676" vertical-offset="344" max-vertical-offset="912">
           <folding />
         </state>
       </provider>
