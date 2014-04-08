@@ -70,7 +70,16 @@ module muiltcube {
 		two = (callback)=> {
 			this.rpc.execute("Common", "getColorList", {id: 1001}, function (msg) {
 				if(msg.result == 0){
-					colors = msg.body;
+					this.colors = msg.body;
+				}
+				var colorSelectBox = $("#colorSelectBox");
+				var liTpl = $("<li style='width: 20px;height: 20px;'></li>");
+				for (var i = 0; i < this.colors.length; i++) {
+					var o = colors[i];
+					var li = liTpl.clone();
+					console.log("#" + o.value);
+					li.css("background-color", "#" + o.value);
+					colorSelectBox.append(li);
 				}
 				callback();
 			});
