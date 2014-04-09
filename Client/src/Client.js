@@ -2,6 +2,7 @@
 * Created by lenovo on 14-3-31.
 */
 /// <reference path="jquery.d.ts" />
+/// <reference path="Utils.ts" />
 var muiltcube;
 (function (muiltcube) {
     var Client = (function () {
@@ -9,9 +10,15 @@ var muiltcube;
             var _this = this;
             this.onOpen = function (event) {
                 console.log(Utils.stringFormat('connect to {0} success!', _this.wsServer));
+                if (_this.onOpenCallback) {
+                    _this.onOpenCallback();
+                }
             };
             this.onClose = function (event) {
                 console.log('connect closed!');
+                if (_this.onCloseCallback) {
+                    _this.onCloseCallback();
+                }
             };
             this.onMessage = function (event) {
                 console.log(Utils.stringFormat('get data: {0}', event.data));
@@ -24,9 +31,15 @@ var muiltcube;
                         callbacks[i].call(_this, msg.body);
                     }
                 }
+                if (_this.onMessageCallback) {
+                    _this.onMessageCallback();
+                }
             };
             this.onError = function (event) {
                 console.log('socket error!');
+                if (_this.onErrorCallback) {
+                    _this.onErrorCallback();
+                }
             };
         }
         Client.getInstance = function () {
@@ -42,7 +55,8 @@ var muiltcube;
             this.callbackMap = [];
         };
 
-        Client.prototype.start = function () {
+        Client.prototype.start = function (onOpenCallback) {
+            this.onOpenCallback = onOpenCallback;
             this.websocket = new WebSocket(this.wsServer);
 
             this.websocket.onopen = this.onOpen;

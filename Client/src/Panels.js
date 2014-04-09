@@ -2,6 +2,9 @@
 * Created by lenovo on 14-4-4.
 */
 /// <reference path="async.d.ts" />
+/// <reference path="jquery.d.ts" />
+/// <reference path="Client.ts" />
+/// <reference path="Utils.ts" />
 var muiltcube;
 (function (muiltcube) {
     var LoginPanel = (function () {
@@ -13,6 +16,11 @@ var muiltcube;
                 $("#btnLogin").click(_this.onBtnLoginClicked);
             };
             this.onBtnLoginClicked = function () {
+                _this.client.start(_this.onOpen);
+            };
+            this.onOpen = function () {
+                _this.client.addCmdListener(1001, _this.on1001Response);
+
                 var id = parseInt($("#tiID").val());
                 var pwd = $("#tiPwd").val();
 
@@ -20,13 +28,12 @@ var muiltcube;
                     return;
                 }
 
-                muiltcube.Client.getInstance().addCmdListener(1001, _this.on1001Response);
-                muiltcube.Client.getInstance().send(1001, { id: id, pwd: pwd });
+                _this.client.send(1001, { id: id, pwd: pwd });
             };
             this.on1001Response = function (msg) {
-                muiltcube.Client.getInstance().removeCmdListener(1001, _this.on1001Response);
+                _this.client.removeCmdListener(1001, _this.on1001Response);
                 if (msg.result == 0) {
-                    alert("onLoginSuccess");
+                    //alert("onLoginSuccess");
                     $("#loginPanel").remove();
                     _this.onSuccess();
                 } else {
@@ -34,6 +41,8 @@ var muiltcube;
                 }
             };
             this.onSuccess = onSuccess;
+            this.client = muiltcube.Client.getInstance();
+
             Utils.loadTPL("tpl/login.html", this.onTplLoaded);
         }
         return LoginPanel;
@@ -54,11 +63,10 @@ var muiltcube;
                         this.colors = msg.body;
                     }
                     var colorSelectBox = $("#colorSelectBox");
-                    var liTpl = $("<li style='width: 20px;height: 20px;'></li>");
+                    var liTpl = $("<li class='colorItem'></li>");
                     for (var i = 0; i < this.colors.length; i++) {
-                        var o = colors[i];
+                        var o = this.colors[i];
                         var li = liTpl.clone();
-                        console.log("#" + o.value);
                         li.css("background-color", "#" + o.value);
                         colorSelectBox.append(li);
                     }

@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e82bfb-4678-47ca-a8b8-ac73bfa13822" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/muiltcube.sql" afterPath="$PROJECT_DIR$/muiltcube.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Client/tsc.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/src/Client.js" afterPath="$PROJECT_DIR$/Client/src/Client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/src/Client.ts" afterPath="$PROJECT_DIR$/Client/src/Client.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/src/Main.js" afterPath="$PROJECT_DIR$/Client/src/Main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/src/Main.ts" afterPath="$PROJECT_DIR$/Client/src/Main.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MuiltCube.iml" afterPath="$PROJECT_DIR$/MuiltCube.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/src/Panels.js" afterPath="$PROJECT_DIR$/Client/src/Panels.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/src/Panels.ts" afterPath="$PROJECT_DIR$/Client/src/Panels.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/src/style/common.css" afterPath="$PROJECT_DIR$/Client/src/style/common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/src/tpl/role_create.html" afterPath="$PROJECT_DIR$/Client/src/tpl/role_create.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MuiltCube.iws" />
@@ -21,7 +34,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -57,9 +70,9 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true" />
-    <breakpoint_rules converted="true" />
-    <ui_properties converted="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -67,64 +80,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Client/src/Main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.206897" vertical-offset="0" max-vertical-offset="440">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.ts" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Client/src/Client.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1880" max-vertical-offset="2580">
-              <caret line="117" column="36" selection-start-line="117" selection-start-column="36" selection-end-line="117" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.ts" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Client/src/Main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1040">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Panels.ts" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Client/src/Panels.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6857143" vertical-offset="1140" max-vertical-offset="1860">
-              <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="role_create.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Client/src/tpl/role_create.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.827586" vertical-offset="0" max-vertical-offset="540">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RPC.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebServer/rpc/RPC.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="1240">
-              <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+            <state line="26" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="816">
               <folding />
             </state>
           </provider>
@@ -133,11 +92,49 @@
       <file leaf-file-name="common.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebServer/class/common.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.275862" vertical-offset="0" max-vertical-offset="400">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state line="10" column="14" selection-start="144" selection-end="144" vertical-scroll-proportion="-6.4" vertical-offset="0" max-vertical-offset="400">
               <folding>
-                <element signature="e#31#115#0" expanded="false" />
-                <marker date="1396972620862" expanded="true" signature="256:280" placeholder="select * fro..skin_color..." />
+                <marker date="1397007701558" expanded="true" signature="256:280" placeholder="select * fro..skin_color..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Panels.ts" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/src/Panels.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="81" column="24" selection-start="1564" selection-end="1564" vertical-scroll-proportion="0.0" vertical-offset="1096" max-vertical-offset="1664">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="role_create.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Client/src/tpl/role_create.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="19" selection-start="287" selection-end="287" vertical-scroll-proportion="0.23572744" vertical-offset="144" max-vertical-offset="944">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/src/tpl/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="18" selection-start="114" selection-end="114" vertical-scroll-proportion="-2.56" vertical-offset="0" max-vertical-offset="496">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.ts" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/src/Client.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="5" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="322" max-vertical-offset="2368">
+              <folding>
+                <marker date="1397019220697" expanded="true" signature="2949:2978" placeholder="..." />
+                <marker date="1397019220697" expanded="true" signature="2949:2964" placeholder="{...}" />
+                <marker date="1397019220697" expanded="true" signature="2949:2958" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -157,38 +154,38 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/core/Client.go" />
-        <option value="$PROJECT_DIR$/Client/show.html" />
+        <option value="$PROJECT_DIR$/Client/src/LoginPanel.ts" />
+        <option value="$PROJECT_DIR$/src/model/PlayerInfoVo.go" />
+        <option value="$PROJECT_DIR$/Client/src/tpl/role_select.html" />
+        <option value="$PROJECT_DIR$/Client/src/Main.html" />
         <option value="$PROJECT_DIR$/Client/src/tpl/login.html" />
-        <option value="$PROJECT_DIR$/Client/src/Utils.ts" />
-        <option value="$PROJECT_DIR$/Client/src/Main.js" />
         <option value="$PROJECT_DIR$/src/core/Protocol.go" />
-        <option value="$PROJECT_DIR$/WebServer/rpc/rpc.php" />
-        <option value="$PROJECT_DIR$/WebServer/class/Common.class.php" />
+        <option value="$PROJECT_DIR$/src/model/Model.go" />
         <option value="$PROJECT_DIR$/WebServer/gateway.php" />
         <option value="$PROJECT_DIR$/WebServer/rpc/RPC.class.php" />
-        <option value="$PROJECT_DIR$/WebServer/class/aaa.php" />
-        <option value="db-console:/f8c85690/d97713a5-d8b9-4c03-9f51-d922f0a76aab/" />
-        <option value="$PROJECT_DIR$/WebServer/class/common.class.php" />
-        <option value="$PROJECT_DIR$/WebServer/DB.class.php" />
+        <option value="$PROJECT_DIR$/WebServer/test.php" />
+        <option value="$PROJECT_DIR$/WebServer/DB.php" />
         <option value="$PROJECT_DIR$/WebServer/config.db.php" />
-        <option value="$PROJECT_DIR$/Client/src/async.js" />
-        <option value="$PROJECT_DIR$/Client/src/async.d.ts" />
+        <option value="$PROJECT_DIR$/muiltcube2.sql" />
+        <option value="$PROJECT_DIR$/WebServer/DB.class.php" />
         <option value="$PROJECT_DIR$/Client/src/Main.ts" />
-        <option value="$PROJECT_DIR$/src/model/Model.go" />
-        <option value="$PROJECT_DIR$/Client/src/Main.html" />
         <option value="$PROJECT_DIR$/Client/src/Client.ts" />
+        <option value="$PROJECT_DIR$/Client/tsc.bat" />
+        <option value="$PROJECT_DIR$/Client/src/style/common.css" />
         <option value="$PROJECT_DIR$/Client/src/Panels.ts" />
         <option value="$PROJECT_DIR$/Client/src/tpl/role_create.html" />
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="886" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -198,15 +195,15 @@
             <id />
           </State>
           <State>
-            <id>GeneralJavaScript</id>
+            <id>Code StylePHP</id>
           </State>
           <State>
-            <id>JavaScript</id>
+            <id>PHP</id>
           </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>JSMethodCanBeStatic</id>
+            <id>PhpRedundantClosingTagInspection</id>
           </State>
         </selected-state>
       </profile-state>
@@ -225,10 +222,10 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -241,6 +238,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -255,7 +253,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MuiltCube" />
+              <option name="myItemId" value="muiltcube" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -265,39 +263,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MuiltCube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MuiltCube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MuiltCube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="class" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MuiltCube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MuiltCube" />
+              <option name="myItemId" value="muiltcube" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -311,7 +277,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MuiltCube" />
+              <option name="myItemId" value="muiltcube" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -329,7 +295,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MuiltCube" />
+              <option name="myItemId" value="muiltcube" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -345,9 +311,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MuiltCube" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="muiltcube" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -363,25 +350,20 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="FullScreen" value="false" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="LayoutCode.rearrangeEntriesTypeScript" value="false" />
-    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Workspaces\idea\MuiltCube\WebServer" />
-      <recent name="E:\Workspaces\idea\MuiltCube\Client" />
-      <recent name="E:\Workspaces\idea\MuiltCube\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Workspaces\idea\MuiltCube\WebServer\class" />
-      <recent name="E:\Workspaces\idea\MuiltCube\WebServer" />
+      <recent name="E:\Workspaces\IdeaProjects\muiltcube\Client\assets\icons" />
     </key>
   </component>
   <component name="RunManager" selected="Go Application.MuiltCube.go">
@@ -395,7 +377,7 @@
       <option name="builderArguments" value="" />
       <option name="goBuildBeforeRun" value="false" />
       <option name="goOutputDir" value="" />
-      <option name="workingDir" value="E:\Workspaces\idea\MuiltCube" />
+      <option name="workingDir" value="E:\Workspaces\IdeaProjects\MuiltCube" />
       <option name="envVars" value="" />
       <option name="goVetEnabled" value="false" />
       <module name="MuiltCube" />
@@ -419,7 +401,7 @@
       <module name="" />
       <method />
     </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
       <module name="" />
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
@@ -429,7 +411,7 @@
       <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
@@ -446,7 +428,7 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -490,9 +472,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -514,6 +493,9 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -530,7 +512,7 @@
       <option name="launchUrl" value="false" />
       <option name="launcherParameters">
         <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="browserFamily" value="FIREFOX" />
           <option name="launcherType" value="OSDefault" />
           <option name="newPlayerInstance" value="false" />
           <option name="playerPath" value="FlashPlayerDebugger.exe" />
@@ -571,14 +553,13 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
       <option name="BCName" value="" />
       <option name="launcherParameters">
         <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="browserFamily" value="FIREFOX" />
           <option name="launcherType" value="OSDefault" />
           <option name="newPlayerInstance" value="false" />
           <option name="playerPath" value="FlashPlayerDebugger.exe" />
@@ -666,7 +647,6 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <list size="1">
@@ -683,121 +663,124 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" myUseAcceleration="nothing">
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
     <configuration useDefault="false">C:\Users\RockyF\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e9e82bfb-4678-47ca-a8b8-ac73bfa13822" name="Default" comment="" />
       <created>1396401603209</created>
       <updated>1396401603209</updated>
-      <workItem from="1396401605156" duration="29000" />
-      <workItem from="1396459457077" duration="2397000" />
-      <workItem from="1396547639984" duration="4198000" />
-      <workItem from="1396619669252" duration="3039000" />
-      <workItem from="1396624525446" duration="5443000" />
-      <workItem from="1396878574614" duration="145000" />
-      <workItem from="1396878822915" duration="3120000" />
-      <workItem from="1396882854401" duration="7958000" />
-      <workItem from="1396969989095" duration="125000" />
-      <workItem from="1396970147657" duration="6733000" />
+      <workItem from="1396401605156" duration="1209000" />
+      <workItem from="1396492130398" duration="5107000" />
+      <workItem from="1396583207681" duration="596000" />
+      <workItem from="1396583820222" duration="1143000" />
+      <workItem from="1396588114034" duration="3937000" />
+      <workItem from="1396624396417" duration="700000" />
+      <workItem from="1396674709297" duration="1232000" />
+      <workItem from="1396676267343" duration="5636000" />
+      <workItem from="1396704209744" duration="1788000" />
+      <workItem from="1396753669201" duration="9414000" />
+      <workItem from="1396830549436" duration="15398000" />
+      <workItem from="1396876561568" duration="6565000" />
+      <workItem from="1396935115832" duration="3388000" />
+      <workItem from="1396949091879" duration="4576000" />
+      <workItem from="1396962846126" duration="57000" />
+      <workItem from="1397006944694" duration="395000" />
+      <workItem from="1397007407350" duration="311000" />
+      <workItem from="1397007726560" duration="6533000" />
     </task>
-    <task id="LOCAL-00001" summary="commit at home">
-      <created>1396459603219</created>
-      <updated>1396459603219</updated>
+    <task id="LOCAL-00001" summary="Initial commit&#10;">
+      <created>1396624480061</created>
+      <updated>1396624480061</updated>
     </task>
-    <task id="LOCAL-00002" summary="commit at home">
-      <created>1396460520160</created>
-      <updated>1396460520160</updated>
+    <task id="LOCAL-00002" summary="Initial commit&#10;">
+      <created>1396838905625</created>
+      <updated>1396838905625</updated>
     </task>
-    <task id="LOCAL-00003" summary="commit at home">
-      <created>1396552298475</created>
-      <updated>1396552298475</updated>
+    <task id="LOCAL-00003" summary="Initial commit&#10;">
+      <created>1396871115700</created>
+      <updated>1396871115700</updated>
     </task>
-    <task id="LOCAL-00004" summary="commit at home">
-      <created>1396631153027</created>
-      <updated>1396631153027</updated>
+    <task id="LOCAL-00004" summary="Initial commit&#10;">
+      <created>1396875919218</created>
+      <updated>1396875919218</updated>
     </task>
-    <task id="LOCAL-00005" summary="commit at home">
-      <created>1396890576878</created>
-      <updated>1396890576878</updated>
+    <task id="LOCAL-00005" summary="Initial commit&#10;">
+      <created>1396922141836</created>
+      <updated>1396922141836</updated>
     </task>
-    <task id="LOCAL-00006" summary="commit at home">
-      <created>1396890761919</created>
-      <updated>1396890761919</updated>
+    <task id="LOCAL-00006" summary="Initial commit&#10;">
+      <created>1396923600318</created>
+      <updated>1396923600318</updated>
     </task>
-    <task id="LOCAL-00007" summary="commit at home">
-      <created>1396891089137</created>
-      <updated>1396891089137</updated>
+    <task id="LOCAL-00007" summary="Initial commit&#10;">
+      <created>1396962408259</created>
+      <updated>1396962408259</updated>
     </task>
-    <task id="LOCAL-00008" summary="commit at home">
-      <created>1396891114925</created>
-      <updated>1396891114925</updated>
+    <task id="LOCAL-00008" summary="Initial commit&#10;">
+      <created>1396962624290</created>
+      <updated>1396962624290</updated>
     </task>
-    <task id="LOCAL-00009" summary="commit at home">
-      <created>1396891141055</created>
-      <updated>1396891141055</updated>
+    <task id="LOCAL-00009" summary="Initial commit&#10;">
+      <created>1396962889476</created>
+      <updated>1396962889476</updated>
     </task>
-    <task id="LOCAL-00010" summary="commit at home">
-      <created>1396891229699</created>
-      <updated>1396891229699</updated>
-    </task>
-    <task id="LOCAL-00011" summary="commit at home">
-      <created>1396891281320</created>
-      <updated>1396891281320</updated>
-    </task>
-    <task id="LOCAL-00012" summary="commit at home">
-      <created>1396976072957</created>
-      <updated>1396976072957</updated>
-    </task>
-    <task id="LOCAL-00013" summary="commit at home">
-      <created>1396977383005</created>
-      <updated>1396977383005</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33187000" />
+    <option name="totallyTimeSpent" value="67985000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32737276" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2553648" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32436976" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32784638" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32663316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17453505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2031722" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -810,423 +793,353 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="commit at home" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit at home" />
+    <MESSAGE value="Initial commit&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
     </breakpoint-manager>
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Client/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="580">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/Main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="420">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/Client.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1960">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/Main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="940">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state line="14" column="20" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="184" max-vertical-offset="752">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/Panels.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="880">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/Protocol.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="519" max-vertical-offset="1120">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="580">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="7" selection-end-column="51" />
+        <state line="34" column="31" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="752">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/Main.html">
+    <entry file="file://$PROJECT_DIR$/src/model/PlayerInfoVo.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="400">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
+        <state line="6" column="19" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="416" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/Client.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="7" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1568">
+          <folding>
+            <marker date="1397019220697" expanded="true" signature="2949:2978" placeholder="..." />
+            <marker date="1397019220697" expanded="true" signature="2949:2964" placeholder="{...}" />
+            <marker date="1397019220697" expanded="true" signature="2949:2958" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/Main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1140">
-          <caret line="36" column="3" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+        <state line="14" column="20" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="752">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/Panels.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="1" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0" vertical-offset="640" max-vertical-offset="736">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tbs/Socket.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="1" selection-start="2535" selection-end="2535" vertical-scroll-proportion="0.0" vertical-offset="1928" max-vertical-offset="2496" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/Client.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1960">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
+        <state line="9" column="7" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1568">
+          <folding>
+            <marker date="1397019220697" expanded="true" signature="2949:2978" placeholder="..." />
+            <marker date="1397019220697" expanded="true" signature="2949:2964" placeholder="{...}" />
+            <marker date="1397019220697" expanded="true" signature="2949:2958" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/Utils.ts">
+    <entry file="file://$PROJECT_DIR$/Client/src/tpl/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="560">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="580">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="7" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/Main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="400">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
+        <state line="8" column="21" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="496" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/Main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1100">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        <state line="25" column="12" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="752">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/Client.ts">
+    <entry file="file://$PROJECT_DIR$/Client/src/Panels.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1960">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state line="31" column="32" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="496" max-vertical-offset="720">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/Utils.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="560">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/tpl/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="380">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/Client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1920">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/libs/three.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6036036" vertical-offset="5" max-vertical-offset="755320">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26825634" vertical-offset="0" max-vertical-offset="671">
-          <caret line="9" column="79" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="2460">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/Client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.824295" vertical-offset="600" max-vertical-offset="2020">
-          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28490028" vertical-offset="0" max-vertical-offset="1260">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/Panels.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12958963" vertical-offset="0" max-vertical-offset="540">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MuiltCube.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26030368" vertical-offset="0" max-vertical-offset="461">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/jquery.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3325893" vertical-offset="8971" max-vertical-offset="13900">
-          <caret line="469" column="2" selection-start-line="469" selection-start-column="2" selection-end-line="469" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/muiltbox/Protocol.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4316703" vertical-offset="960" max-vertical-offset="1960">
-          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/tpl/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2361111" vertical-offset="78" max-vertical-offset="620">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/Client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2125814" vertical-offset="1459" max-vertical-offset="1920">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/Utils.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5639913" vertical-offset="0" max-vertical-offset="580">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/Protocol.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="519" max-vertical-offset="1120">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_PLUGINS_DIR$/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_6.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3480243" vertical-offset="20071" max-vertical-offset="23980">
-          <caret line="1015" column="9" selection-start-line="1015" selection-start-column="9" selection-end-line="1015" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/muiltcube2.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14245014" vertical-offset="0" max-vertical-offset="702">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/f8c85690/d97713a5-d8b9-4c03-9f51-d922f0a76aab/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="671">
-          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f8c85690/d97713a5-d8b9-4c03-9f51-d922f0a76aab/muiltcube..skin_color">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f8c85690/d97713a5-d8b9-4c03-9f51-d922f0a76aab/muiltcube..skin">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_PLUGINS_DIR$/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/mysql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3480243" vertical-offset="7791" max-vertical-offset="17980">
-          <caret line="401" column="62" selection-start-line="401" selection-start-column="52" selection-end-line="401" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebServer/config.db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23845008" vertical-offset="0" max-vertical-offset="671">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebServer/DB.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20864381" vertical-offset="1080" max-vertical-offset="4240">
-          <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
-          <folding>
-            <marker date="1396973064814" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1396973064814" expanded="true" signature="-1:-1" placeholder="update $tabl..." />
-            <marker date="1396973064814" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebServer/gateway.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08941878" vertical-offset="0" max-vertical-offset="671">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2980626" vertical-offset="0" max-vertical-offset="671">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/async.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42857143" vertical-offset="0" max-vertical-offset="20980">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/async.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.6796536" vertical-offset="0" max-vertical-offset="1820">
-          <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Model.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="847" max-vertical-offset="1440">
-          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-          <folding />
-        </state>
+        <state line="7" column="7" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="928" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/Main.html">
+    <entry file="file://$PROJECT_DIR$/Client/src/Client.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.206897" vertical-offset="0" max-vertical-offset="440">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebServer/class/common.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.275862" vertical-offset="0" max-vertical-offset="400">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state line="9" column="7" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1568">
           <folding>
-            <element signature="e#31#115#0" expanded="false" />
-            <marker date="1396972620862" expanded="true" signature="256:280" placeholder="select * fro..skin_color..." />
+            <marker date="1397019220697" expanded="true" signature="2949:2978" placeholder="..." />
+            <marker date="1397019220697" expanded="true" signature="2949:2964" placeholder="{...}" />
+            <marker date="1397019220697" expanded="true" signature="2949:2958" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/tpl/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="496" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/Main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="752">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/Panels.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="6" selection-start="326" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="672">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/Client.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1999" max-vertical-offset="2580">
-          <caret line="117" column="36" selection-start-line="117" selection-start-column="36" selection-end-line="117" selection-end-column="36" />
-          <folding />
+        <state line="9" column="7" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1568">
+          <folding>
+            <marker date="1397019220697" expanded="true" signature="2949:2978" placeholder="..." />
+            <marker date="1397019220697" expanded="true" signature="2949:2964" placeholder="{...}" />
+            <marker date="1397019220697" expanded="true" signature="2949:2958" placeholder="{...}" />
+          </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/tpl/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="496" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/Main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1040">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state line="11" column="34" selection-start="248" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="912">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/Panels.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="1" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="192">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/Client.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="7" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="1568">
+          <folding>
+            <marker date="1397019220697" expanded="true" signature="2949:2978" placeholder="..." />
+            <marker date="1397019220697" expanded="true" signature="2949:2964" placeholder="{...}" />
+            <marker date="1397019220697" expanded="true" signature="2949:2958" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/tpl/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="24" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="304" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="68" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1968" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="68" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1968" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MuiltCube.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="1" selection-start="140" selection-end="140" vertical-scroll-proportion="0.28169015" vertical-offset="0" max-vertical-offset="568" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/Client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.30107528" vertical-offset="0" max-vertical-offset="1536" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tbs/WebSocket.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="36" selection-start="106" selection-end="106" vertical-scroll-proportion="0.30107528" vertical-offset="0" max-vertical-offset="1072" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tbs/Socket.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="30" selection-start="2286" selection-end="2286" vertical-scroll-proportion="0.5093333" vertical-offset="1809" max-vertical-offset="2496" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/Panels.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="688" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="179" vertical-scroll-proportion="-0.34736842" vertical-offset="198" max-vertical-offset="768" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="31" selection-start="142" selection-end="142" vertical-scroll-proportion="0.25737265" vertical-offset="0" max-vertical-offset="1696" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Model.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="1" selection-start="1300" selection-end="1300" vertical-scroll-proportion="0.44235924" vertical-offset="699" max-vertical-offset="1152" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/PlayerInfoVo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="35" selection-start="156" selection-end="156" vertical-scroll-proportion="0.31903484" vertical-offset="25" max-vertical-offset="400" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/Main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="53" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="336" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/Client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="17" selection-start="2607" selection-end="2607" vertical-scroll-proportion="-0.09859155" vertical-offset="1304" max-vertical-offset="2016" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/Protocol.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="50" selection-start="885" selection-end="885" vertical-scroll-proportion="0.46478873" vertical-offset="360" max-vertical-offset="928" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebServer/gateway.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="17" selection-start="53" selection-end="53" vertical-scroll-proportion="0.088073395" vertical-offset="0" max-vertical-offset="545" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebServer/config.db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="39" selection-start="327" selection-end="327" vertical-scroll-proportion="0.23486239" vertical-offset="0" max-vertical-offset="545" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/muiltcube2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="30" selection-start="324" selection-end="324" vertical-scroll-proportion="0.41252303" vertical-offset="0" max-vertical-offset="543" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebServer/DB.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="7" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.32" vertical-offset="576" max-vertical-offset="3392">
+          <folding>
+            <marker date="1397007701557" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1397007701557" expanded="true" signature="-1:-1" placeholder="update $tabl..." />
+            <marker date="1397007701557" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebServer/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="10" selection-start="101" selection-end="101" vertical-scroll-proportion="0.32" vertical-offset="0" max-vertical-offset="350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/muiltcube.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="34" selection-start="1651" selection-end="1651" vertical-scroll-proportion="0.5128676" vertical-offset="681" max-vertical-offset="1776">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/tsc.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="43" selection-start="97" selection-end="97" vertical-scroll-proportion="0.09142857" vertical-offset="0" max-vertical-offset="350">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebServer/rpc/RPC.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="1240">
-          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+        <state line="39" column="14" selection-start="870" selection-end="870" vertical-scroll-proportion="0.3222836" vertical-offset="449" max-vertical-offset="992">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebServer/class/common.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="14" selection-start="144" selection-end="144" vertical-scroll-proportion="-6.4" vertical-offset="0" max-vertical-offset="400">
+          <folding>
+            <marker date="1397007701558" expanded="true" signature="256:280" placeholder="select * fro..skin_color..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/Client.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="5" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="322" max-vertical-offset="2368">
+          <folding>
+            <marker date="1397019220697" expanded="true" signature="2949:2978" placeholder="..." />
+            <marker date="1397019220697" expanded="true" signature="2949:2964" placeholder="{...}" />
+            <marker date="1397019220697" expanded="true" signature="2949:2958" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/Main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/style/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="12" selection-start="236" selection-end="236" vertical-scroll-proportion="0.14084508" vertical-offset="0" max-vertical-offset="568">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/Panels.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="24" selection-start="1564" selection-end="1564" vertical-scroll-proportion="0.0" vertical-offset="1096" max-vertical-offset="1664">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/tpl/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="18" selection-start="114" selection-end="114" vertical-scroll-proportion="-2.56" vertical-offset="0" max-vertical-offset="496">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/tpl/role_create.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.827586" vertical-offset="0" max-vertical-offset="540">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/Panels.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6857143" vertical-offset="1140" max-vertical-offset="1860">
-          <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
+        <state line="17" column="19" selection-start="287" selection-end="287" vertical-scroll-proportion="0.23572744" vertical-offset="144" max-vertical-offset="944">
           <folding />
         </state>
       </provider>
@@ -1271,7 +1184,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Go sdk go1.2 windows/amd64</last-edited>
+          <last-edited>Flex 4.6.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1284,18 +1197,6 @@
       <state key="ModuleStructureConfigurable.UI">
         <settings>
           <last-edited>MuiltCube</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>Flex 4.6.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

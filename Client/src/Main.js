@@ -30,7 +30,6 @@ var muiltcube;
         Main.prototype.start = function () {
             this.client = muiltcube.Client.getInstance();
             this.client.init(wsuri);
-            this.client.start();
 
             this.rpc = muiltcube.RPC.getInstance();
             this.rpc.init("http://localhost/muiltcube/WebServer/gateway.php");

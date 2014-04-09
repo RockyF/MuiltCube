@@ -2,6 +2,7 @@
  * Created by lenovo on 14-3-31.
  */
 /// <reference path="jquery.d.ts" />
+/// <reference path="Utils.ts" />
 
 module muiltcube {
 	export class Client {
@@ -18,12 +19,18 @@ module muiltcube {
 		websocket:WebSocket;
 		callbackMap:any;
 
+		onOpenCallback:any;
+		onCloseCallback:any;
+		onMessageCallback:any;
+		onErrorCallback:any;
+
 		init(wsServer:string) {
 			this.wsServer = wsServer;
 			this.callbackMap = [];
 		}
 
-		start() {
+		start(onOpenCallback:any) {
+			this.onOpenCallback = onOpenCallback;
 			this.websocket = new WebSocket(this.wsServer);
 
 			this.websocket.onopen = this.onOpen;
@@ -68,10 +75,16 @@ module muiltcube {
 
 		onOpen=(event)=>{
 			console.log(Utils.stringFormat('connect to {0} success!', this.wsServer));
+			if(this.onOpenCallback){
+				this.onOpenCallback();
+			}
 		}
 
 		onClose=(event)=>{
 			console.log('connect closed!');
+			if(this.onCloseCallback){
+				this.onCloseCallback();
+			}
 		}
 
 		onMessage=(event)=>{
@@ -85,10 +98,16 @@ module muiltcube {
 					callbacks[i].call(this, msg.body);
 				}
 			}
+			if(this.onMessageCallback){
+				this.onMessageCallback();
+			}
 		}
 
 		onError=(event)=>{
 			console.log('socket error!');
+			if(this.onErrorCallback){
+				this.onErrorCallback();
+			}
 		}
 	}
 
